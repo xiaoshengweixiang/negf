@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "negf"
+version = "0.0.1"
+authors = [
+  { name="Jinli Chen", email="1900011342@pku.edu.cn" },
+]
+description = "A tool for calculating the quantum transport properties of condensed matter systems based on the principle of non-equilibrium Green's functions"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/xiaoshengweixiang/negf"
+"Bug Tracker" = "https://github.com/xiaoshengweixiang/negf/issues"
